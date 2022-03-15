@@ -412,7 +412,7 @@ span {
 
 .footer-social {  
     display: flex;  
-    height: 15vh; 
+    height: 60vh; 
     width: 100%;    
     align-items: center;
     justify-content: center;
@@ -436,7 +436,7 @@ span {
 }
 
 .footer-links {  
-    font-size: 3.2rem;
+    font-size: 4.2rem;    
 }
 
 .footer-rights {
@@ -447,4 +447,10 @@ span {
 
 .name-rights {
     letter-spacing: 1px;
+}
+
+.footer-kontakt {    
+    height: 15vh;
+    padding-top: 6rem;
+    font-size: 3rem;
 }
