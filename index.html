@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Osobní webová straánka, kde se můžete dosvědět o mých dovednostech" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+
+    <title>Naďa Tomanová | Osobní webová stránka | tomanovanada.cz</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" />            
+        </div>
+        <div class="navigace">            
+            <nav>
+                <div class="nav-links" id="navLinks">
+                <!-- Close icon - X -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>                    
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#skills">SKILLY</a></li>
+                    <li><a href="#info">INFO O MĚ</a></li>
+                    <li><a href="#testing">TESTOVÁNÍ</a></li>
+                    <li><a href="#social-links">KONTAKT</a></li>
+                </ul>                
+                </div>
+                <!-- Open icon - navbar -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>            
+        </div>
+    </header>
+
+    <section class="heading-hero" id="home">
+        <div class="first">
+            <h1 class="heading-primary">Responzivní Web Design a Testování Software</h1>                       
+        </div>
+        <div class="second">
+            <img src="images/laptop.png" alt="laptop" />
+        </div>        
+    </section>
+
+    <section class="my-skills" id="skills">
+        <h2>Moje skilly</h2>
+    </section>
+
+    <section class="hero">        
+        <div class="card-section">
+            <div class="card">
+              <div class="box">
+                <div class="Bx">                    
+                  <h2 class="header-second">HTML 5</h2>             
+                  <ion-icon class="icon-skills" name="logo-html5"></ion-icon>
+                </div>
+                <div class="contentBx">
+                  <div>
+                    <h2>HTML 5</h2>
+                    <p>je verze značkovacího jazyka HTML sloužícího pro tvorbu webových stránek. Proti předchozí verzi HTML 4 z roku 1997 přináší podstatné změny.</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="card-section">
+            <div class="card">
+              <div class="box">
+                <div class="Bx">                  
+                  <h2 class="header-second">CSS 3</h2>             
+                  <ion-icon class="icon-skills" name="logo-css3"></ion-icon>
+                </div>
+                <div class="contentBx">
+                  <div>
+                    <h2>CSS 3</h2>
+                    <p>je už třetí verzí kaskádových stylů. Většina vlastností CSS 3 je podporována nejběžnějšími webovými prohlížeči. CSS 3 přináší např zaoblené rohy, stíny u textu či obrázků.</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+          <div class="card-section">
+            <div class="card">
+              <div class="box">
+                <div class="Bx">
+                    <h2 class="header-second">JavaScript</h2>             
+                    <ion-icon class="icon-skills" name="logo-javascript"></ion-icon>
+                </div>
+                <div class="contentBx">
+                  <div>
+                    <h2>JavaScript</h2>
+                    <p>je objektově orientovaný, událostmi řízený scriptovací jazyk, jehož autorem je Brendan Eich. Program v JavaScriptu se spouští až po stažení webové stránky z Internetu.</p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+    </section>
+
+    <section class="about-me">        
+    <div class="about-me-hero-box">        
+        <div class="about-me-box">
+          <img class="image-about-me" src="images/testing.png" alt="struktura testování" />
+        </div>
+        <div class="about-me-box">
+          <h2 class="header-about-me" id="info">INFO O MĚ</h2>
+            <p class="text-about-me">Jsem manuální a automatická testerka a dělám i weby. Weby jsou responzivní, tedy jdou bez problému zobrazovat na telefonech a tabletech. Kód validní a sémanticky správný.</p> 
+            <p class="text-about-me">Prošla jsem kurzy od <a class="link" href="https://kitner.cz/" target="_blank"><span>Radka Kitnera</span></a>. Jsem z Třebíče. Vím k čemu se používá devtools, na co je příkazový řádek (když nebyly WIN, tak jsem PC ovládala v DOSu) a učím se JS a pro radost Python. Dál se zlepšuji v HTML 5 a CSS 3. Dokážu si vytvořit sama testcase, stavový diagram, Jinak jsme se učili programy JIRA, POSTMAN, TESTRAIL. Na automatické testování jsme používali Robot Framework (framework Pythonu). Taky jsem prošla jednodenní manuální testování kurz u <a class="link" href="https://www.czechitas.cz/" target="_blank"><span>Czechitas</span></a>. V případě zájmu pošlu životopis.</p>
+        </div>            
+    </div>
+    </section>
+
+    <section class="heading-hero testing-hero" id="testing">
+      <div class="first">
+        <div class="card testing">
+          <h2 class="heading-secondary heading-margin">Manuální Testování</h2>
+          <p class="testing-text">Manuální (ale i automatický) tester prověřuje program tvořený programátorem a ostatními členy skupiny, zda funguje dle požadavků zadavatele. Testuje se v průběhu vytváření softwaru, což přispívá k rychlejšímu dokončení programu. U manuálního testování musíme ručně prověřit , jestli je výsledek testování validní.</p>
+        </div>                       
+      </div>
+      <div class="second">
+        <div class="card testing">
+          <h2 class="heading-secondary heading-margin">Automatické Testování</h2>
+          <p class="testing-text">Automatické testování softwaru spočívá ve vytvoření kódu, který dokáže opakovaně otestovat danou část programu. Rozdíl mezi automatickým testováním oproti manuálnímu je ten, jakým způsobem budeme kontrolovat výsledek. Automatický test zjistí sám, jestli prošel, či nikoliv. A kde je chyba.</p>
+        </div> 
+      </div>        
+  </section>
+
+    <footer class="footer" id="social-links">
+      <div class="footer-obal">
+        <div class="footer-social">
+         <ul class="footer-links">
+            <li><a href="https://www.linkedin.com/in/na%C4%8Fa-tomanov%C3%A1-a04550205/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.facebook.com/nada.tomanova.73/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://github.com/Nadatom" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+         </ul>
+        </div>
+        <div class="footer-rights">
+          <h3 class="name-rights">Naďa Tomanová - 2022</h3>
+        </div>
+      </div>                
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
