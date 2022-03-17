@@ -169,7 +169,7 @@ img {
     text-align: center;
     font-size: 40px;
     color: #333;
-    padding: 20px;
+    padding-top: 100px;        
 }
 
 /* HERO CONTENT */
@@ -305,11 +305,16 @@ img {
     padding-top: 50px;        
 }
 
+#help-me {    
+    padding-bottom: 40px;
+    color: #fff;
+}
+
 /* INFO O MĚ */
 
 /* HLAVNÍ SEKCE */
 .about-me {
-    background-color: #333;
+    background-color: #333;    
 }
 
 /* HLAVNÍ BOX - O MĚ */
@@ -317,8 +322,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    margin: 0 20px;
-    padding: 20px;    
+    margin: 0 20px;    
 }
 
 .about-me-box {   
@@ -326,12 +330,12 @@ img {
     padding: 10px;
 }
 
-/* Obrázek o mě */
+/* Obrázek o mně */
 .image-about-me {
     border-radius: 3px;    
 }
 
-/* Nadpis - Info o mě */
+/* Nadpis - Info o mně */
 .header-about-me {
     text-align: center;
     color: #fff;
@@ -383,7 +387,7 @@ span {
 /* TESTING - MANUÁLNÍ - AUTOMATICKÉ */
 
 .testing { 
-    padding: 20px;    
+    padding-top: 60px;    
 }
 
 .testing-text {   
